@@ -14,23 +14,29 @@
 
 @implementation ViewController
 
-
-- (void)loadView
-{
-    [super loadView];
-    
-    NSLog(@"%s, %@", __FUNCTION__, self);
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view setBackgroundColor:[UIColor greenColor]];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+//    [self.view setBackgroundColor:[UIColor greenColor]];
+    [self.navigationController.navigationBar setTranslucent:NO];
+    //去掉背景图片
+    [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor redColor]];
+}
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    
+    NSLog(@"%s, %@", __FUNCTION__, self.navigationController.navigationBar.subviews);
 }
+
 
 @end
