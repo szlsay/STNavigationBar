@@ -12,27 +12,10 @@
 @interface TravelNavController ()<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
-
-/** <#des#> */
 @property (nonatomic, strong) UIImageView *imageView;
-
 @property (nonatomic, strong) UIView *navigationView;
-//@property (nonatomic, strong) UIColor *backColor;
-@property (nonatomic, assign) CGFloat headerHeight;
-//
-//@property (nonatomic, strong) UIView *headerContentView;
-//@property (nonatomic, strong) UIImageView *headerImageView;
-//@property (nonatomic, strong) UIImageView *iconView;
-//@property (nonatomic, strong) UIImageView *iconView0;
-//@property (nonatomic, strong) UILabel *label;
-//@property (nonatomic, assign) CGFloat scale;
-//
-///** <#des#> */
-//@property (nonatomic, strong) UIButton *buttonRight;
-///** <#des#> */
 @property (nonatomic, strong) UIButton *buttonBack;
-///** <#des#> */
-@property (nonatomic, strong) UIButton *buttonBack0;
+@property (nonatomic, assign) CGFloat headerHeight;
 @end
 
 @implementation TravelNavController
