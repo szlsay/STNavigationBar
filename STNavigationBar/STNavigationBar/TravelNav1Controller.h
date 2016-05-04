@@ -1,5 +1,5 @@
 //
-//  NavigationButtonController.h
+//  TravelNav1Controller.h
 //  STNavigationBar
 //
 //  Created by 沈兆良 on 16/5/4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NavigationButtonController : UIViewController
+@interface TravelNav1Controller : UIViewController
 
 @end

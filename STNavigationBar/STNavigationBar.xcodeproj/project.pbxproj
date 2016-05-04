@@ -7,28 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6761304E1CD988440022EBC9 /* NavigationButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761304D1CD988440022EBC9 /* NavigationButtonController.m */; };
 		676130521CD993F50022EBC9 /* TravelNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676130511CD993F50022EBC9 /* TravelNavController.m */; };
 		676130571CD9AA930022EBC9 /* UINavigationBar+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 676130561CD9AA930022EBC9 /* UINavigationBar+ST.m */; };
 		6761305A1CD9AB460022EBC9 /* TravelNav0Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 676130591CD9AB460022EBC9 /* TravelNav0Controller.m */; };
-		7731D7201CD88A9E00562F02 /* ZGNavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D71F1CD88A9E00562F02 /* ZGNavigationTitleView.m */; };
-		7731D7231CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D7211CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m */; };
-		7731D7261CD88ABD00562F02 /* ZGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D7251CD88ABD00562F02 /* ZGViewController.m */; };
-		7731D7291CD88D3C00562F02 /* BBBadgeBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D7281CD88D3C00562F02 /* BBBadgeBarButtonItem.m */; };
+		6761305D1CD9B4410022EBC9 /* TravelNav1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761305C1CD9B4410022EBC9 /* TravelNav1Controller.m */; };
 		7731D73B1CD8ADE000562F02 /* STConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D7361CD8ADE000562F02 /* STConst.m */; };
 		7731D73C1CD8ADE000562F02 /* STUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D7381CD8ADE000562F02 /* STUI.m */; };
 		7731D73D1CD8ADE000562F02 /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D73A1CD8ADE000562F02 /* UIView+ST.m */; };
-		7731D7401CD8AE0700562F02 /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D73F1CD8AE0700562F02 /* View1Controller.m */; };
 		77A807591C0202F000FB59D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A807581C0202F000FB59D5 /* main.m */; };
 		77A8075C1C0202F000FB59D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8075B1C0202F000FB59D5 /* AppDelegate.m */; };
-		77A8075F1C0202F000FB59D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8075E1C0202F000FB59D5 /* ViewController.m */; };
 		77A807621C0202F000FB59D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A807601C0202F000FB59D5 /* Main.storyboard */; };
 		77A807641C0202F000FB59D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A807631C0202F000FB59D5 /* Assets.xcassets */; };
 		77A807671C0202F000FB59D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A807651C0202F000FB59D5 /* LaunchScreen.storyboard */; };
 		77A807721C0202F000FB59D5 /* STNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A807711C0202F000FB59D5 /* STNavigationBarTests.m */; };
 		77A8077D1C0202F000FB59D5 /* STNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8077C1C0202F000FB59D5 /* STNavigationBarUITests.m */; };
-		77A8078C1C02031200FB59D5 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8078B1C02031200FB59D5 /* NavigationController.m */; };
-		77A8078F1C02112B00FB59D5 /* STNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A8078E1C02112B00FB59D5 /* STNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,22 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6761304C1CD988440022EBC9 /* NavigationButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationButtonController.h; sourceTree = "<group>"; };
-		6761304D1CD988440022EBC9 /* NavigationButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationButtonController.m; sourceTree = "<group>"; };
 		676130501CD993F40022EBC9 /* TravelNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelNavController.h; sourceTree = "<group>"; };
 		676130511CD993F50022EBC9 /* TravelNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelNavController.m; sourceTree = "<group>"; };
 		676130551CD9AA930022EBC9 /* UINavigationBar+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ST.h"; sourceTree = "<group>"; };
 		676130561CD9AA930022EBC9 /* UINavigationBar+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ST.m"; sourceTree = "<group>"; };
 		676130581CD9AB460022EBC9 /* TravelNav0Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelNav0Controller.h; sourceTree = "<group>"; };
 		676130591CD9AB460022EBC9 /* TravelNav0Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelNav0Controller.m; sourceTree = "<group>"; };
-		7731D71E1CD88A9E00562F02 /* ZGNavigationTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGNavigationTitleView.h; sourceTree = "<group>"; };
-		7731D71F1CD88A9E00562F02 /* ZGNavigationTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGNavigationTitleView.m; sourceTree = "<group>"; };
-		7731D7211CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGNavigationBarTitleViewController.m; sourceTree = "<group>"; };
-		7731D7221CD88AAF00562F02 /* ZGNavigationBarTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGNavigationBarTitleViewController.h; sourceTree = "<group>"; };
-		7731D7241CD88ABD00562F02 /* ZGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGViewController.h; sourceTree = "<group>"; };
-		7731D7251CD88ABD00562F02 /* ZGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGViewController.m; sourceTree = "<group>"; };
-		7731D7271CD88D3C00562F02 /* BBBadgeBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBadgeBarButtonItem.h; sourceTree = "<group>"; };
-		7731D7281CD88D3C00562F02 /* BBBadgeBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBadgeBarButtonItem.m; sourceTree = "<group>"; };
+		6761305B1CD9B4410022EBC9 /* TravelNav1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelNav1Controller.h; sourceTree = "<group>"; };
+		6761305C1CD9B4410022EBC9 /* TravelNav1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelNav1Controller.m; sourceTree = "<group>"; };
 		7731D7341CD8ADE000562F02 /* STConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConfig.h; sourceTree = "<group>"; };
 		7731D7351CD8ADE000562F02 /* STConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConst.h; sourceTree = "<group>"; };
 		7731D7361CD8ADE000562F02 /* STConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STConst.m; sourceTree = "<group>"; };
@@ -72,14 +56,10 @@
 		7731D7381CD8ADE000562F02 /* STUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUI.m; sourceTree = "<group>"; };
 		7731D7391CD8ADE000562F02 /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ST.h"; sourceTree = "<group>"; };
 		7731D73A1CD8ADE000562F02 /* UIView+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ST.m"; sourceTree = "<group>"; };
-		7731D73E1CD8AE0700562F02 /* View1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
-		7731D73F1CD8AE0700562F02 /* View1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
 		77A807541C0202F000FB59D5 /* STNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A807581C0202F000FB59D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77A8075A1C0202F000FB59D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77A8075B1C0202F000FB59D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77A8075D1C0202F000FB59D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77A8075E1C0202F000FB59D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77A807611C0202F000FB59D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77A807631C0202F000FB59D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77A807661C0202F000FB59D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,10 +70,6 @@
 		77A807781C0202F000FB59D5 /* STNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A8077C1C0202F000FB59D5 /* STNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STNavigationBarUITests.m; sourceTree = "<group>"; };
 		77A8077E1C0202F000FB59D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77A8078A1C02031200FB59D5 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		77A8078B1C02031200FB59D5 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		77A8078D1C02112B00FB59D5 /* STNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavigationBar.h; sourceTree = "<group>"; };
-		77A8078E1C02112B00FB59D5 /* STNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +104,8 @@
 				676130511CD993F50022EBC9 /* TravelNavController.m */,
 				676130581CD9AB460022EBC9 /* TravelNav0Controller.h */,
 				676130591CD9AB460022EBC9 /* TravelNav0Controller.m */,
+				6761305B1CD9B4410022EBC9 /* TravelNav1Controller.h */,
+				6761305C1CD9B4410022EBC9 /* TravelNav1Controller.m */,
 			);
 			name = "客路旅行";
 			sourceTree = "<group>";
@@ -155,6 +133,13 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		6761305E1CD9BAF30022EBC9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		77A8074B1C0202F000FB59D5 = {
 			isa = PBXGroup;
 			children = (
@@ -178,29 +163,12 @@
 		77A807561C0202F000FB59D5 /* STNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				6761305E1CD9BAF30022EBC9 /* Other */,
 				676130541CD9AA4D0022EBC9 /* Category */,
 				676130531CD9A9D10022EBC9 /* STConfig */,
 				6761304F1CD993C40022EBC9 /* 客路旅行 */,
 				77A8075A1C0202F000FB59D5 /* AppDelegate.h */,
 				77A8075B1C0202F000FB59D5 /* AppDelegate.m */,
-				77A8078A1C02031200FB59D5 /* NavigationController.h */,
-				77A8078B1C02031200FB59D5 /* NavigationController.m */,
-				77A8075D1C0202F000FB59D5 /* ViewController.h */,
-				77A8075E1C0202F000FB59D5 /* ViewController.m */,
-				7731D73E1CD8AE0700562F02 /* View1Controller.h */,
-				7731D73F1CD8AE0700562F02 /* View1Controller.m */,
-				6761304C1CD988440022EBC9 /* NavigationButtonController.h */,
-				6761304D1CD988440022EBC9 /* NavigationButtonController.m */,
-				7731D7271CD88D3C00562F02 /* BBBadgeBarButtonItem.h */,
-				7731D7281CD88D3C00562F02 /* BBBadgeBarButtonItem.m */,
-				7731D71E1CD88A9E00562F02 /* ZGNavigationTitleView.h */,
-				7731D71F1CD88A9E00562F02 /* ZGNavigationTitleView.m */,
-				7731D7221CD88AAF00562F02 /* ZGNavigationBarTitleViewController.h */,
-				7731D7211CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m */,
-				7731D7241CD88ABD00562F02 /* ZGViewController.h */,
-				7731D7251CD88ABD00562F02 /* ZGViewController.m */,
-				77A8078D1C02112B00FB59D5 /* STNavigationBar.h */,
-				77A8078E1C02112B00FB59D5 /* STNavigationBar.m */,
 				77A807601C0202F000FB59D5 /* Main.storyboard */,
 				77A807631C0202F000FB59D5 /* Assets.xcassets */,
 				77A807651C0202F000FB59D5 /* LaunchScreen.storyboard */,
@@ -370,20 +338,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7731D73B1CD8ADE000562F02 /* STConst.m in Sources */,
-				6761304E1CD988440022EBC9 /* NavigationButtonController.m in Sources */,
 				6761305A1CD9AB460022EBC9 /* TravelNav0Controller.m in Sources */,
 				7731D73D1CD8ADE000562F02 /* UIView+ST.m in Sources */,
-				7731D7401CD8AE0700562F02 /* View1Controller.m in Sources */,
 				676130571CD9AA930022EBC9 /* UINavigationBar+ST.m in Sources */,
-				7731D7201CD88A9E00562F02 /* ZGNavigationTitleView.m in Sources */,
-				77A8075F1C0202F000FB59D5 /* ViewController.m in Sources */,
-				7731D7231CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m in Sources */,
-				77A8078C1C02031200FB59D5 /* NavigationController.m in Sources */,
 				77A8075C1C0202F000FB59D5 /* AppDelegate.m in Sources */,
-				7731D7261CD88ABD00562F02 /* ZGViewController.m in Sources */,
-				77A8078F1C02112B00FB59D5 /* STNavigationBar.m in Sources */,
+				6761305D1CD9B4410022EBC9 /* TravelNav1Controller.m in Sources */,
 				77A807591C0202F000FB59D5 /* main.m in Sources */,
-				7731D7291CD88D3C00562F02 /* BBBadgeBarButtonItem.m in Sources */,
 				676130521CD993F50022EBC9 /* TravelNavController.m in Sources */,
 				7731D73C1CD8ADE000562F02 /* STUI.m in Sources */,
 			);

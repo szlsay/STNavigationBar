@@ -7,12 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "NavigationController.h"
-#import "View1Controller.h"
-#import "ZGNavigationBarTitleViewController.h"
-#import "ZGViewController.h"
-#import "NavigationButtonController.h"
+#import "TravelNavController.h"
 #import "TravelNav0Controller.h"
+#import "TravelNav1Controller.h"
 @interface AppDelegate ()
 
 @end
@@ -22,30 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    NavigationController *nav = [[NavigationController alloc]initWithRootViewController:[TravelNav0Controller new]];
-    self.window.rootViewController = nav;
-    [self.window makeKeyAndVisible];
-    
-    
-//    // Override point for customization after application launch.
-//    if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
-//        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-//        [[UIBarButtonItem appearance] setTintColor:[UIColor colorWithWhite:.6 alpha:0.4]];
-//    }
-//    else {
-//        [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
-//    }
-//    
-//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-//    ZGNavigationBarTitleViewController *nav = [[ZGNavigationBarTitleViewController alloc]initWithRootViewController:[ZGViewController new]];
-//    self.window.rootViewController = nav;
-//    [self.window makeKeyAndVisible];
-    
-    
-    return YES;
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[TravelNavController new]];
+    nav.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"demo0" image:nil selectedImage:nil];
 
-    
-//    return YES;
+    UINavigationController *nav0 = [[UINavigationController alloc]initWithRootViewController:[TravelNav0Controller new]];
+    nav0.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"demo1" image:nil selectedImage:nil];
+    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:[TravelNav1Controller new]];
+    nav1.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"demo2" image:nil selectedImage:nil];
+    UITabBarController *tabVC = [[UITabBarController alloc]init];
+    tabVC.viewControllers = @[nav, nav0, nav1];
+    self.window.rootViewController = tabVC;
+    [self.window makeKeyAndVisible];
+
+    return YES;
 }
 
 
