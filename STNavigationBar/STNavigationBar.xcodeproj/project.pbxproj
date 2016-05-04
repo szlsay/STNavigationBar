@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6761304E1CD988440022EBC9 /* NavigationButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6761304D1CD988440022EBC9 /* NavigationButtonController.m */; };
+		676130521CD993F50022EBC9 /* TravelNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676130511CD993F50022EBC9 /* TravelNavController.m */; };
 		7731D7201CD88A9E00562F02 /* ZGNavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D71F1CD88A9E00562F02 /* ZGNavigationTitleView.m */; };
 		7731D7231CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D7211CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m */; };
 		7731D7261CD88ABD00562F02 /* ZGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7731D7251CD88ABD00562F02 /* ZGViewController.m */; };
@@ -45,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6761304C1CD988440022EBC9 /* NavigationButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationButtonController.h; sourceTree = "<group>"; };
+		6761304D1CD988440022EBC9 /* NavigationButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationButtonController.m; sourceTree = "<group>"; };
+		676130501CD993F40022EBC9 /* TravelNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelNavController.h; sourceTree = "<group>"; };
+		676130511CD993F50022EBC9 /* TravelNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelNavController.m; sourceTree = "<group>"; };
 		7731D71E1CD88A9E00562F02 /* ZGNavigationTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGNavigationTitleView.h; sourceTree = "<group>"; };
 		7731D71F1CD88A9E00562F02 /* ZGNavigationTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGNavigationTitleView.m; sourceTree = "<group>"; };
 		7731D7211CD88AAF00562F02 /* ZGNavigationBarTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGNavigationBarTitleViewController.m; sourceTree = "<group>"; };
@@ -109,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6761304F1CD993C40022EBC9 /* 客路旅行 */ = {
+			isa = PBXGroup;
+			children = (
+				676130501CD993F40022EBC9 /* TravelNavController.h */,
+				676130511CD993F50022EBC9 /* TravelNavController.m */,
+			);
+			name = "客路旅行";
+			sourceTree = "<group>";
+		};
 		77A8074B1C0202F000FB59D5 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +147,7 @@
 		77A807561C0202F000FB59D5 /* STNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				6761304F1CD993C40022EBC9 /* 客路旅行 */,
 				77A8075A1C0202F000FB59D5 /* AppDelegate.h */,
 				77A8075B1C0202F000FB59D5 /* AppDelegate.m */,
 				77A8078A1C02031200FB59D5 /* NavigationController.h */,
@@ -140,6 +156,8 @@
 				77A8075E1C0202F000FB59D5 /* ViewController.m */,
 				7731D73E1CD8AE0700562F02 /* View1Controller.h */,
 				7731D73F1CD8AE0700562F02 /* View1Controller.m */,
+				6761304C1CD988440022EBC9 /* NavigationButtonController.h */,
+				6761304D1CD988440022EBC9 /* NavigationButtonController.m */,
 				7731D7341CD8ADE000562F02 /* STConfig.h */,
 				7731D7351CD8ADE000562F02 /* STConst.h */,
 				7731D7361CD8ADE000562F02 /* STConst.m */,
@@ -326,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7731D73B1CD8ADE000562F02 /* STConst.m in Sources */,
+				6761304E1CD988440022EBC9 /* NavigationButtonController.m in Sources */,
 				7731D73D1CD8ADE000562F02 /* UIView+ST.m in Sources */,
 				7731D7401CD8AE0700562F02 /* View1Controller.m in Sources */,
 				7731D7201CD88A9E00562F02 /* ZGNavigationTitleView.m in Sources */,
@@ -337,6 +356,7 @@
 				77A8078F1C02112B00FB59D5 /* STNavigationBar.m in Sources */,
 				77A807591C0202F000FB59D5 /* main.m in Sources */,
 				7731D7291CD88D3C00562F02 /* BBBadgeBarButtonItem.m in Sources */,
+				676130521CD993F50022EBC9 /* TravelNavController.m in Sources */,
 				7731D73C1CD8ADE000562F02 /* STUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
