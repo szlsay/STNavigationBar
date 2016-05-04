@@ -12,7 +12,7 @@
 #import "ZGNavigationBarTitleViewController.h"
 #import "ZGViewController.h"
 #import "NavigationButtonController.h"
-#import "TravelNavController.h"
+#import "TravelNav0Controller.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    NavigationController *nav = [[NavigationController alloc]initWithRootViewController:[TravelNavController new]];
+    NavigationController *nav = [[NavigationController alloc]initWithRootViewController:[TravelNav0Controller new]];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
