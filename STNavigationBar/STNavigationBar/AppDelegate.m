@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  STNavigationBar
 //
-//  Created by rkxt_ios on 15/11/22.
+//  Created by https://github.com/STShenZhaoliang/STNavigationBar on 15/11/22.
 //  Copyright © 2015年 ST. All rights reserved.
 //
 
@@ -10,6 +10,8 @@
 #import "TravelNavController.h"
 #import "TravelNav0Controller.h"
 #import "TravelNav1Controller.h"
+
+#import "BookNavController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,6 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+
+
+    // 1.客路的
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[TravelNavController new]];
     nav.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"demo0" image:nil selectedImage:nil];
 
@@ -28,7 +33,12 @@
     nav1.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"demo2" image:nil selectedImage:nil];
     UITabBarController *tabVC = [[UITabBarController alloc]init];
     tabVC.viewControllers = @[nav, nav0, nav1];
-    self.window.rootViewController = tabVC;
+
+
+    // 2.简书的
+    UINavigationController *navBook = [[UINavigationController alloc]initWithRootViewController:[BookNavController new]];
+
+    self.window.rootViewController = navBook;
     [self.window makeKeyAndVisible];
 
     return YES;

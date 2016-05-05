@@ -2,7 +2,7 @@
 //  UINavigationBar+ST.m
 //  STNavigationBar
 //
-//  Created by 沈兆良 on 16/5/3, Copy LTNavigationBar
+//  Created by https://github.com/STShenZhaoliang/STNavigationBar on 16/5/3, Copy LTNavigationBar
 //  Copyright © 2016年 stebean. All rights reserved.
 //
 
